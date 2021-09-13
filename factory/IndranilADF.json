@@ -1,0 +1,9 @@
+{
+	"name": "IndranilADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b8465556-ce42-430b-a5f2-1066b181b685",
+		"tenantId": "a5918731-f550-4191-bafc-36d6fc92fce7"
+	}
+}

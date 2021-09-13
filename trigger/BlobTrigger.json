@@ -1,0 +1,17 @@
+{
+	"name": "BlobTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/15d8bbd5-f395-4c7b-8da7-bc8bdf30cd39/resourceGroups/cogrg/providers/Microsoft.Storage/storageAccounts/indrsg",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
